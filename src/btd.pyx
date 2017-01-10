@@ -72,7 +72,7 @@ cdef class BTD(MCMCModel):
 
     def __init__(self, int I, int J, int C, int K, double b=1.,
                  double e=0.1, double f=1., double eta=1., double gam=1.,
-                 int dirichlet=0, int point_est=0, int debug=0, object seed=None):
+                 int dirichlet=1, int point_est=0, int debug=0, object seed=None):
 
         super(BTD, self).__init__(seed)
 
