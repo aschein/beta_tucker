@@ -24,12 +24,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## What's included:
-* [btd.pyx](https://github.com/aschein/btd/blob/master/src/btd.pyx): The main code file.  Implements Gibbs sampling inference for Beta Tucker decomposition.
-* [mcmc_model.pyx](https://github.com/aschein/btd/blob/master/src/mcmc_model.pyx): Implements Cython interface for MCMC models.  Inherited by pgds.pyx.
-* [sample.pyx](https://github.com/aschein/btd/blob/master/src/sample.pyx): Implements fast Cython method for sampling various distributions.
-* [bessel.pyx](https://github.com/aschein/btd/blob/master/src/bessel.pyx): Implements fast Cython methods for sampling from the Bessel distribution.
-* [Makefile](https://github.com/aschein/btd/blob/master/src/Makefile): Makefile (cd into this directoy and type 'make' to compile).
-* [example.ipynb](https://github.com/aschein/btd/blob/master/src/example.ipynb): Jupyter notebook with examples of how to use the code.
+* [btd.pyx](https://github.com/aschein/beta_tucker/blob/master/src/btd.pyx): The main code file.  Implements Gibbs sampling inference for Beta Tucker decomposition.
+* [mcmc_model.pyx](https://github.com/aschein/beta_tucker/blob/master/src/mcmc_model.pyx): Implements Cython interface for MCMC models.  Inherited by pgds.pyx.
+* [sample.pyx](https://github.com/aschein/beta_tucker/blob/master/src/sample.pyx): Implements fast Cython method for sampling various distributions.
+* [bessel.pyx](https://github.com/aschein/beta_tucker/blob/master/src/bessel.pyx): Implements fast Cython methods for sampling from the Bessel distribution.
+* [Makefile](https://github.com/aschein/beta_tucker/blob/master/src/Makefile): Makefile (cd into this directoy and type 'make' to compile).
+* [example.ipynb](https://github.com/aschein/beta_tucker/blob/master/src/example.ipynb): Jupyter notebook with examples of how to use the code.
 
 ## Dependencies:
 * numpy
